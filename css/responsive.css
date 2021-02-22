@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px){
+  main{
+    background: url(../images/bg-mobile.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  section{
+    width: 325px;
+    height: 380px;
+  }
+  #left{
+  width: 100%;
+  }
+  #right{
+    position: relative;
+  }
+  #right-info{
+    position: static;
+  }
+  #message{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+  }
+  #message::after{
+    display: none;
+  }
+}
